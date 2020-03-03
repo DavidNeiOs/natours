@@ -1,4 +1,5 @@
 import React from "react";
+import logoWhite from "./img/logo-white.png";
 import "./App.css";
 
 function App() {
@@ -6,11 +7,7 @@ function App() {
     <div>
       <header className="header">
         <div className="logo-box">
-          <img
-            src="img/logo-white.png"
-            alt="logo white version"
-            className="logo"
-          />
+          <img src={logoWhite} alt="logo white version" className="logo" />
         </div>
         <div className="text-box">
           <h1 className="heading-primary">
