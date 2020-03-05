@@ -1,5 +1,8 @@
 import React from "react";
 import logoWhite from "./img/logo-white.png";
+import photo1 from "./img/nat-1-large.jpg";
+import photo2 from "./img/nat-2-large.jpg";
+import photo3 from "./img/nat-3-large.jpg";
 
 function App() {
   return (
@@ -57,7 +60,25 @@ function App() {
                 Learn more &rarr;
               </a>
             </div>
-            <div className="col-1-of-2">image composition</div>
+            <div className="col-1-of-2">
+              <div className="composition">
+                <img
+                  src={photo1}
+                  alt="Sight 1"
+                  className="composition__photo composition__photo--p1"
+                />
+                <img
+                  src={photo2}
+                  alt="Sight 2"
+                  className="composition__photo composition__photo--p2"
+                />
+                <img
+                  src={photo3}
+                  alt="Sight 3"
+                  className="composition__photo composition__photo--p3"
+                />
+              </div>
+            </div>
           </div>
         </section>
       </main>
