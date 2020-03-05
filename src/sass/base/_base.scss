@@ -7,16 +7,11 @@
 }
 
 html {
+  /* this defines what 1rem is */
   font-size: 62.5%;
 }
 
 body {
-  padding: 3rem;
-  font-family: "Lato", sans-serif;
-  font-weight: 400;
-  /* font-size: 16px; */
-  line-height: 1.7;
-  color: #777;
   box-sizing: border-box;
 }
 

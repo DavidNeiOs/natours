@@ -1,6 +1,5 @@
 import React from "react";
 import logoWhite from "./img/logo-white.png";
-import "./App.scss";
 
 function App() {
   return (
