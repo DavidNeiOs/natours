@@ -3,6 +3,10 @@ import logoWhite from "./img/logo-white.png";
 import photo1 from "./img/nat-1-large.jpg";
 import photo2 from "./img/nat-2-large.jpg";
 import photo3 from "./img/nat-3-large.jpg";
+import firstCustomerPhoto from "./img/nat-8.jpg";
+import secondCustomerPhoto from "./img/nat-9.jpg";
+import BgVideoMP4 from "./img/video.mp4";
+import BgVideoWebM from "./img/video.webm";
 
 function App() {
   return (
@@ -21,9 +25,9 @@ function App() {
             <span className="heading-primary--sub">is where life happens!</span>
           </h1>
 
-          <a href="#" className="btn btn--white btn--animated">
+          <button className="btn btn--white btn--animated">
             Discover our tours
-          </a>
+          </button>
         </div>
       </header>
 
@@ -56,7 +60,12 @@ function App() {
                 Nobis ex dolor vitae mollitia?
               </p>
 
-              <a href="#" className="btn-text">
+              <a
+                href="https://davidneios.dev"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="btn-text"
+              >
                 Learn more &rarr;
               </a>
             </div>
@@ -166,9 +175,7 @@ function App() {
                       <p className="card__price-only">Only</p>
                       <p className="card__price-value">$297</p>
                     </div>
-                    <a href="#" className="btn btn--white">
-                      Book now
-                    </a>
+                    <button className="btn btn--white">Book now</button>
                   </div>
                 </div>
               </div>
@@ -199,9 +206,7 @@ function App() {
                       <p className="card__price-only">Only</p>
                       <p className="card__price-value">$700</p>
                     </div>
-                    <a href="#" className="btn btn--white">
-                      Book now
-                    </a>
+                    <button className="btn btn--white">Book now</button>
                   </div>
                 </div>
               </div>
@@ -231,9 +236,7 @@ function App() {
                       <p className="card__price-only">Only</p>
                       <p className="card__price-value">$890</p>
                     </div>
-                    <a href="#" className="btn btn--white">
-                      Book now
-                    </a>
+                    <button className="btn btn--white">Book now</button>
                   </div>
                 </div>
               </div>
@@ -241,8 +244,77 @@ function App() {
           </div>
 
           <div className="u-center-text u-margin-bottom-huge">
-            <a href="#" className="btn btn--green">
-              Discover all tours
+            <button className="btn btn--green">Discover all tours</button>
+          </div>
+        </section>
+
+        <section className="section-stories">
+          <div className="bg-video">
+            <video className="bg-video__content" autoPlay muted loop>
+              <source src={BgVideoMP4} type="video/mp4" />
+              <source src={BgVideoWebM} type="video/webm" />
+              Your browser is not supported!
+            </video>
+          </div>
+          <div className="u-center-text u-margin-bottom-big">
+            <h2 className="heading-secondary">We make peopple genuily happy</h2>
+          </div>
+
+          <div className="row">
+            <div className="story">
+              <figure className="story__shape">
+                <img
+                  src={firstCustomerPhoto}
+                  alt="first experience"
+                  className="story__image"
+                />
+                <figcaption className="story__caption">Mary Smith</figcaption>
+              </figure>
+              <div className="story__text">
+                <h3 className="heading-tertiary u-margin-bottom-small">
+                  I had the best week ever with my family
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Illum ipsum reiciendis cupiditate, possimus consectetur neque
+                  vel dignissimos accusamus est, officia dicta quo itaque
+                  voluptas nostrum saepe eos non accusantium suscipit!
+                </p>
+              </div>
+            </div>
+          </div>
+          <div className="row">
+            <div className="story">
+              <figure className="story__shape">
+                <img
+                  src={secondCustomerPhoto}
+                  alt="first experience"
+                  className="story__image"
+                />
+                <figcaption className="story__caption">Jack Wilson</figcaption>
+              </figure>
+              <div className="story__text">
+                <h3 className="heading-tertiary u-margin-bottom-small">
+                  Wow! My life is completely different now
+                </h3>
+                <p>
+                  Lorem ipsum dolor sit amet, consectetur adipisicing elit.
+                  Illum ipsum reiciendis cupiditate, possimus consectetur neque
+                  vel dignissimos accusamus est, officia dicta quo itaque
+                  voluptas nostrum saepe eos non accusantium suscipit!
+                </p>
+              </div>
+            </div>
+          </div>
+
+          <div className="u-center-text u-margin-bottom-huge">
+            <a
+              href="https://davidneios.dev"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="btn-text"
+            >
+              Read all stories &rarr;
             </a>
           </div>
         </section>
