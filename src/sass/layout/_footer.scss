@@ -2,7 +2,7 @@
   background-color: $color-grey-dark-3;
   padding: 10rem 0;
   font-size: 1.4rem;
-  color: $color-grey-light-1;
+  color: $color-grey-dark-1;
 
   &__logo-box {
     text-align: center;
@@ -15,7 +15,7 @@
   }
 
   &__navigation {
-    border-top: 1px solid $color-grey-light-2;
+    border-top: 1px solid $color-grey-dark-1;
     padding-top: 2rem;
     display: inline-block;
   }
@@ -57,7 +57,8 @@
   }
 
   &__copyright {
-    border-top: 1px solid $color-grey-light-2;
+    border-top: 1px solid $color-grey-dark-1;
+    color: $color-grey-dark-1;
     padding-top: 2rem;
     width: 80%;
     float: right;

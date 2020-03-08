@@ -12,7 +12,7 @@ export const Footer = () => {
           <div className="footer__navigation">
             <ul className="footer__list">
               <li className="footer__item">
-                <button className="footer__link">Compoany</button>
+                <button className="footer__link">Company</button>
               </li>
               <li className="footer__item">
                 <button className="footer__link">Contact us</button>
