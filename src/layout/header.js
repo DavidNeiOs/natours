@@ -17,9 +17,9 @@ export const Header = () => {
           <span className="heading-primary--sub">is where life happens!</span>
         </h1>
 
-        <button className="btn btn--white btn--animated">
+        <a href="#stories" className="btn btn--white btn--animated">
           Discover our tours
-        </button>
+        </a>
       </div>
     </header>
   );

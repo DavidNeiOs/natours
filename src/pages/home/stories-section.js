@@ -7,7 +7,7 @@ import BgVideoWebM from "../../img/video.webm";
 
 export const StoriesSection = () => {
   return (
-    <section className="section-stories">
+    <section className="section-stories" id="stories">
       <div className="bg-video">
         <video className="bg-video__content" autoPlay muted loop>
           <source src={BgVideoMP4} type="video/mp4" />

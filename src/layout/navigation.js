@@ -17,29 +17,29 @@ export const Navigation = () => {
       <nav className="navigation__nav">
         <ul className="navigation__list">
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <button className="navigation__link">
               <span>01</span>About Natours
-            </a>
+            </button>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <button className="navigation__link">
               <span>02</span>Your benefits
-            </a>
+            </button>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <button className="navigation__link">
               <span>03</span>Popular tours
-            </a>
+            </button>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <button className="navigation__link">
               <span>04</span>Stories
-            </a>
+            </button>
           </li>
           <li className="navigation__item">
-            <a href="#" className="navigation__link">
+            <button className="navigation__link">
               <span>05</span>Book now
-            </a>
+            </button>
           </li>
         </ul>
       </nav>

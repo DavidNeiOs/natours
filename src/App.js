@@ -2,6 +2,7 @@ import React from "react";
 
 import { Header, Footer, Navigation } from "./layout";
 import { Home } from "./pages/home";
+import { Popup } from "./components/popup";
 
 function App() {
   return (
@@ -10,6 +11,8 @@ function App() {
       <Header />
       <Home />
       <Footer />
+
+      <Popup />
     </div>
   );
 }
