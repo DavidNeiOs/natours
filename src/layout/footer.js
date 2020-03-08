@@ -36,7 +36,10 @@ export const Footer = () => {
               David Neira
             </a>{" "}
             following this online{" "}
-            <a href="https://udemy.com" className="footer__link">
+            <a
+              href="https://www.udemy.com/course/advanced-css-and-sass/"
+              className="footer__link"
+            >
               course
             </a>
             . Copyright &copy; Original author and design - Jonas Schmedtmann.
