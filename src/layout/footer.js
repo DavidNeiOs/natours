@@ -1,11 +1,26 @@
 import React from "react";
-import FullLogo from "../img/logo-green-2x.png";
+import FullLogo2x from "../img/logo-green-2x.png";
+import FullLogo1x from "../img/logo-green-1x.png";
+
+import SmallLogo2x from "../img/logo-green-small-2x.png";
+import SmallLogo1x from "../img/logo-green-small-1x.png";
 
 export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <img src={FullLogo} alt="full logo" className="footer__logo" />
+        <picture>
+          <source
+            srcSet={`${SmallLogo1x} 1x, ${SmallLogo2x} 2x`}
+            media="(max-width: 37.5em)"
+          />
+          <img
+            srcSet={`${FullLogo1x} 1x, ${FullLogo2x} 2x`}
+            alt="full logo"
+            className="footer__logo"
+            src={FullLogo2x}
+          />
+        </picture>
       </div>
       <div className="row">
         <div className="col-1-of-2">

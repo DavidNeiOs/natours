@@ -1,8 +1,11 @@
 import React from "react";
 
 import photo1 from "../../img/nat-1-large.jpg";
+import photo1Large from "../../img/nat-1-large.jpg";
 import photo2 from "../../img/nat-2-large.jpg";
+import photo2Large from "../../img/nat-2-large.jpg";
 import photo3 from "../../img/nat-3-large.jpg";
+import photo3Large from "../../img/nat-3-large.jpg";
 
 export const AboutSection = () => {
   return (
@@ -46,19 +49,25 @@ export const AboutSection = () => {
         <div className="col-1-of-2">
           <div className="composition">
             <img
-              src={photo1}
+              srcSet={`${photo1} 300w, ${photo1Large} 1000w`}
+              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
               alt="Sight 1"
               className="composition__photo composition__photo--p1"
+              src={photo1Large}
             />
             <img
-              src={photo2}
+              srcSet={`${photo2} 300w, ${photo2Large} 1000w`}
+              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
               alt="Sight 2"
               className="composition__photo composition__photo--p2"
+              src={photo2Large}
             />
             <img
-              src={photo3}
+              srcSet={`${photo3} 300w, ${photo3Large} 1000w`}
+              sizes="(max-width: 900px) 20vw, (max-width: 600px) 30vw, 300px"
               alt="Sight 3"
               className="composition__photo composition__photo--p3"
+              src={photo3Large}
             />
           </div>
         </div>
