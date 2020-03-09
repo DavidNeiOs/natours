@@ -17,6 +17,7 @@
 
   @include respond(phone) {
     transform: skew(0);
+    margin: 0 0;
   }
 
   &__shape {
