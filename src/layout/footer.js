@@ -9,7 +9,7 @@ export const Footer = () => {
   return (
     <footer className="footer">
       <div className="footer__logo-box">
-        <picture>
+        <picture className="footer__logo">
           <source
             srcSet={`${SmallLogo1x} 1x, ${SmallLogo2x} 2x`}
             media="(max-width: 37.5em)"
@@ -17,7 +17,6 @@ export const Footer = () => {
           <img
             srcSet={`${FullLogo1x} 1x, ${FullLogo2x} 2x`}
             alt="full logo"
-            className="footer__logo"
             src={FullLogo2x}
           />
         </picture>
