@@ -1,5 +1,5 @@
 import React from "react";
-import logoWhite from "../img/logo-white.png";
+import logoWhite from "../../img/logo-white.png";
 
 export const Header = () => {
   return (

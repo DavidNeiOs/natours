@@ -1,9 +1,9 @@
 import React from "react";
-import FullLogo2x from "../img/logo-green-2x.png";
-import FullLogo1x from "../img/logo-green-1x.png";
+import FullLogo2x from "../../img/logo-green-2x.png";
+import FullLogo1x from "../../img/logo-green-1x.png";
 
-import SmallLogo2x from "../img/logo-green-small-2x.png";
-import SmallLogo1x from "../img/logo-green-small-1x.png";
+import SmallLogo2x from "../../img/logo-green-small-2x.png";
+import SmallLogo1x from "../../img/logo-green-small-1x.png";
 
 export const Footer = () => {
   return (
